@@ -1,0 +1,31 @@
+.apresentação {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  gap: 100px;
+  justify-content: center;
+}
+.apresentação h1 {
+  font-size: 4.5rem;
+  font-weight: bold;
+  line-height: 1.125;
+  margin-bottom: 30px;
+  position: relative;
+}
+.apresentação h1::before {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 100px;
+  background: url("./web/img/detalhe.svg") no-repeat center;
+  position: absolute;
+  top: -15px;
+  left: -40px;
+  z-index: -1;
+}
+.apresentação p {
+  font-size: 1.5rem;
+  color: #525252;
+}

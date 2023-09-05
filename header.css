@@ -1,0 +1,19 @@
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 300px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  max-width: 1200px;
+}
+.marca {
+  display: inline-block;
+}
+.menu a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 2rem;
+  text-align: end;
+  color: #141414;
+  font-weight: 1rem;
+}
