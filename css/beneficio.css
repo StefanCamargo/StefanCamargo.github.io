@@ -1,0 +1,51 @@
+.beneficio-bg {
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(../img/intro.jpg)
+}
+.beneficio {
+ margin-bottom: 10px;
+ border-radius: 5px;
+ padding: 80px;
+ display: inline-block;
+}
+.beneficio-titulo{
+color: #B401F3 ;
+font-family: "Poppins";
+font-size: 30px;
+font-weight: bold;
+}
+.beneficio-texto {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-size: 20px;
+  font-family: "Poppins";
+  border-radius: 20px;
+  padding: 10px 10px;
+  box-sizing: border-box;
+}
+.beneficio-texto span{
+  color: #B401F3;
+  font-weight: 500;
+}
+.quem-somos, 
+.servico {
+margin-left: 200px;
+}
+@media (max-width:800px) {
+  .beneficio {
+    padding: 15px;
+   }
+   .beneficio-titulo{
+    font-size: 20px;
+    }
+    .beneficio-texto {
+      font-size: 12px;
+    }
+.quem-somos, 
+.servico {
+  margin-left: 0px;
+}
+}

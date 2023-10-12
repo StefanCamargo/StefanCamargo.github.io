@@ -1,0 +1,60 @@
+.intro-bg{
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+background-image: url("../img/ales-nesetril-Im7lZjxeLhg-unsplash\ 1.jpg");
+}
+
+.intro{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap:40px;
+padding: 120px 40px;
+}
+.intro h1{
+  font-size: 40px;
+  color: #fff;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+.intro h3{
+  font-size: 24px;
+  color: #fff;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+.intro a{
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background: linear-gradient(to bottom, #B172C0 23%, #8000FF 77%);
+  color: #fff;
+  font-size: 18px;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+.intro a:hover {
+  background: linear-gradient(to bottom, #8000FF 23%, #B172C0  77%);
+ 
+}
+
+@media (max-width: 800px) {
+  .intro{
+    gap:40px;
+  padding: 60px 20px;
+  }
+  .intro h1{
+ font-size: 24px;
+  }
+  .intro h3{
+    font-size: 16px;
+     }
+     .intro a{
+      display: inline-block;
+      padding: 5px 8px;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+}

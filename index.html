@@ -1,141 +1,171 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt=br">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Stefan Camargo</title>
-  <link rel="stylesheet" href="./style.css">
+  <title>TS Codes</title>
+  <meta name="description" content="Sistemas web e Desing">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    <div class="marca"> <img src="./web/img/Stefan Camargo.svg" alt=""></div>
-    <nav class="menu">
-      <a href="/">Experiência</a>
-      <a href="/">Formação</a>
-      <a href="/">Contato</a>
+<header class="header-bg" id="home">
+  <div class="header container">
+    <a href="./">
+      <img src="./img/ts (1).svg" alt="TS Codes">
+    </a>
+
+    <nav class="js-menu">
+      <ul class="header-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#quem-somos">Quem somos</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
     </nav>
-  </header>
-  <main class="apresentação">
-    <img class="foto" src="./web/img/foto-perfil.jpg" alt="/">
+  </div>
+</header>
+
+<main class="intro-bg">
+  <div class="intro container">
+   <h1>Criamos para você o <br> projeto perfeito com <br> um excelente custo- <br> benefício.</h1>
+    <h3>Tenha um site profissional, feito sob <br> medida e ideal para divulgar <br> pequenas   e médias empresas na <br> internet.</h3>
+    <a href="./contato">fale com a gente</a>
+  </div>
+</main>
+
+<article class="beneficio-bg ">
+  <div class="container">
+  <div class="quem-somos beneficio" id="quem-somos" >
+<h3 class="beneficio-titulo">Quem somos</h3>
+<p class="beneficio-texto">Na <span class="ts-span">Ts Codes</span>, somos apaixonados por transformar ideias em <br> realidade digital. Somos uma equipe de especialistas em <br> desenvolvimento web dedicados a criar soluções <br> inovadoras e personalizadas para empresas e <br> empreendedores em todo o mundo.</p>
+  </div>
+
+  <div class="missao beneficio " >
+    <h3 class="beneficio-titulo"> Missão</h3>
+    <p class="beneficio-texto">Nossa missão é impulsionar o sucesso de nossos clientes, fornecendo <br> soluções de desenvolvimento web de alta qualidade e resultados <br> excepcionais. Acreditamos que a tecnologia é uma ferramenta <br> poderosa para o crescimento dos negócios e estamos <br> comprometidos em ajudar nossos clientes a atingirem seu pleno <br> potencial on-line.</p>
+      </div>
+
+      <div class="servico beneficio">
+        <h3 class="beneficio-titulo">Serviços</h3>
+        <p class="beneficio-texto">Na <span class="ts-span">Ts Codes</span>, oferecemos uma ampla gama de serviços de <br> desenvolvimento web, incluindo design de sites responsivos, <br> desenvolvimento de aplicativos web, comércio eletrônico, otimização de <br> mecanismos de busca (SEO), integrações de sistemas, e muito mais. Nosso <br> foco está na criação de experiências online excepcionais que cativam os <br> visitantes e geram resultados tangíveis.</p>
+          </div>
+        </div>
+</article>
+
+<article class="projetos-bg" id="projetos">
+  <h2 class="projetos-titulo">Confira alguns de nossos projetos</h2>
+  <div class="projetos-foto container">
     <div>
-      <h1>
-        Desenvolvedor<br> Front-end & <br> UI/UX Desing.
-      </h1>
-      <p>
-        Localizado em Itaqui Rio Grande do Sul
-      </p>
+    <h3 class="projeto-sub">HANDEL</h3>
+    <img src="./img/handel.jpg" alt="site handel">
+  </div>
+  <div>
+    <h3 class="projeto-sub">BIKCRAFT</h3>
+    <img src="./img/bikcraft.jpg" alt="site bikcraft">
+  </div>
+  <div>
+    <h3 class="projeto-sub">MC CONSTRUTORA</h3>
+    <img src="./img/mc.jpg" alt="site mc construtora">
+  </div>
+  </div>
+</article>
+
+<section class="parceiros" aria-label="Nossos Parceiros">
+  <h2 class="container">nossos parceiros</h2>
+  <ul>
+    <li><img src="./img/parceiros/caravan.svg" alt="caravan"></li>
+    <li><img src="./img/parceiros/dogs.svg" alt="dogs"></li>
+    <li><img src="./img/parceiros/flexblog.svg" alt="flexblog"></li>
+    <li><img src="./img/parceiros/handel.svg" alt="handel"></li>
+    <li><img src="./img/parceiros/lescone.svg" alt="lescone"></li>
+    <li><img src="./img/parceiros/ranek.svg" alt="ranek"></li>
+    <li><img src="./img/parceiros/surfbot.svg" alt="surfbot"></li>
+    <li><img src="./img/parceiros/wildbeast.svg" alt="wildbeast"></li>
+  </ul>
+</section>
+
+
+  <main class="contato-bg" id="contato">
+      <div class="titulo container">
+        <h1>nosso contato</h1>
+      </div>
+
+    <div class="contato container">
+      <section class="contato-dados" aria-label="Endereço">
+        <h2>Ts Codes Sistemas Web</h2>
+        <div class="contato-endereco">
+          <p>Rua ali perto, 35</p>
+          <p>Rio de janeiro - RJ</p>
+          <p>Brasil - Terra - Via Láctea</p>
+        </div>
+        <address class="contato-meios">
+          <a href="https://github.com/StefanCamargo">github.com/StefanCamargo</a>
+          <a href="mailto:stefancamargo.ti@gmail.com">stefancamargo.ti@gmail.com</a>
+          <a href="tel: +5555984592824">+55 (55) 98459-8284</a>
+        </address>
+        <div class="contato-redes">
+          <a href="https://www.instagram.com/stefan.camargo">
+            <img src="./img/instagram.svg" alt="Instagram">
+          </a>
+          <a href="https://www.facebook.com/stefan.camargo">
+            <img src="./img/facebook.svg" alt="Facebook">
+          </a>
+          <a href="tel: +5555984592824">
+            <img src="./img/whatsapp.svg" alt="whatsapp">
+          </a>
+        </div>
+      </section>
+
+      <section class="contato-formulario" aria-label="Formulário">
+
+        <form class="form">
+          <div>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome">
+          </div>
+          <div>
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" name="telefone" placeholder="(21) 9999-9999">
+          </div>
+          <div class="col-2">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="contato@email.com">
+          </div>
+          <div class="col-2">
+            <label for="mensagem">Mensagem</label>
+            <textarea rows="5" id="mensagem" name="nome" placeholder="O que você precisa?"></textarea>
+          </div>
+          <div>
+         <a class="botao" href="/">ENVIAR MENSAGEM</a>
+        </div>
+        </form>
+      </section>
     </div>
   </main>
-  <section class="experiencia">
-    <h2 class="title">Experiência<span class="detalhe-ponto">.</span></h2>
-    <div>
-      <p class="experiencia-texto">Desenvolvo pequenos projetos como o Bikcraft utilizando apenas <strong>HTML</strong> ,<strong>CSS</strong> e <strong>JavaScript</strong>. Para aplicativos web como a rede social Dogs eu trabalhei no <strong>UX</strong> e <strong>UI Design</strong> do projeto.</p>
-
-      <div class="projetos">
-        <span class="ano">2023</span>
-        <h3 class="projeto-nome">Bikcraft</h3>
-        <span class="projeto-nome  teste">Desenvolvedor Júnior</span>
-        <p class="projeto-texto">Um projeto de auto nível criado para atender a demanda por bicicletas elétricas. Com tudo que um site precisa de contatos e localização bem como orçamentos.</p>
-        <ul class="projeto-habilidades">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>UX Desing</li>
-          <li>UI Desing</li>
-        </ul>
-        <a class="botao" href="./bikcraft">Ver projeto</a>
-      </div>
-      <div class="projetos">
-        <span class="ano">2022</span>
-        <h3 class="projeto-nome">Surfbot</h3>
-        <span class="projeto-nome teste">Estágiario</span>
-        <p class="projeto-texto">Uma LandPage com diversas informações da empresa como: contato, localização, produtos entre outros.</p>
-        <ul class="projeto-habilidades">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-        </ul>
-        <a class="botao" href="">Ver Projeto</a>
-      </div>
-      <div class="projetos">
-        <span class="ano">2022</span>
-        <h3 class="projeto-nome">Brafé</h3>
-        <span class="projeto-nome  teste">Voluntário</span>
-        <p class="projeto-texto">Um pequeno projeto para atrair novos clientes a um cafeteria da cidade. Apesar de simples alavancou o sucesso do proprietário.</p>
-        <ul class="projeto-habilidades">
-          <li>Email Marketing</li>
-          <li>HTML</li>
-          <li>UX Desing</li>
-          <li>UI Desing</li>
-        </ul>
-        <a class="botao" href="">Ver Projeto</a>
-      </div>
-    </div>
-
-  </section>
-  <section class="formacao">
-    <h2 class="forma">Formação<span class="detalhe-ponto1">.</span></h2>
-    <div>
-      <p class="formacao-texto">Minha mais recente experiência acadêmica foi o <strong>WEB Desing</strong>🎓 que fiz atraves da Origamid<strong> </strong>. Além disso me mantenho sempre atualizado com cursos intensivos online.</p>
 
 
-      <div class="titulos">
-        <ul class="titulos-lista">
-          <li class="lista1">Tecnólogo</li>
-          <li class="lista2">Análise de Sistemas</li>
-          <li class="lista3">FAEL</li>
-        </ul>
-        <div>
-          <ul class="titulos-lista">
-            <li class="lista1">Dev Front-end</li>
-            <li class="lista2">Desenvolvedor de software</li>
-            <li class="lista3">Origamid</li>
-          </ul>
-        </div>
-        <div></div>
-        <ul class="titulos-lista">
-          <li class="lista1">Ui/ux Desing</li>
-          <li class="lista2">User Experience Desing</li>
-          <li class="lista3">Origamid</li>
-        </ul>
-      </div>
-      <div class="formacao-extra">
-        <div class="cursos">
-          <h3>cursos intensivos</h3>
-          <ul>
-            <li>UX Design & UI Desing <span>56h</span></li>
-            <li>HTML e CSS para Iniciantes <span>42h</span></li>
-            <li>CSS Flexbox <span>16h</span></li>
-            <li>CSS Grid Layout<span>18h</span></li>
-            <li>JavaScript ES6<span>37h</span></li>
-          </ul>
-        </div>
-        <div class="idiomas">
-          <h3>Idiomas</h3>
-          <ul>
-            <li>Inglês <span>/ Básico</span></li>
-            <li>Espanhol <span>/ Básico</span></li>
-          </ul>
+<footer class="footer-bg">
+  <div class="footer container">
+  <img src="./img/ts (1).svg" alt="TS Codes">
+</div>
+<div class="footer">
+<nav class="js-menu">
+  <ul class="header-menu">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#quem-somos">Quem somos</a></li>
+    <li><a href="#projetos">Projetos</a></li>
+    <li><a href="#contato">Contato</a></li>
+  </ul>
+</nav>
+</div>
+<p class="footer copy">Bikcraft © Alguns direitos reservados.</p>
+</footer>
 
-        </div>
-      </div>
-    </div>
-    </div>
-  </section>
-  <footer>
-    <h4>Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa 👋</h4>
-    <div class="contato">
-      <ul>
-        <li>stefancamargo.ti@gmail.com</li>
-        <li>+55984598284</li>
-        <li>stefancamargo.github.io</li>
-      </ul>
-    </div>
-    <p>Alguns Direitos Reservados</p>
-  </footer>
+<script src="script.js"></script>
 </body>
-
-
 </html>

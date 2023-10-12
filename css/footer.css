@@ -1,42 +1,19 @@
-footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 0 auto;
-  padding: 2rem 1rem;
-  max-width: 1200px;
-  background: #000000;
+.footer-bg{
+  background: #000;
 }
-footer h4 {
-  font-size: 24px;
-  line-height: 32px;
-  max-width: 30ch;
-  padding: 30px;
-  color: #cccccc;
+.footer{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.footer img{
   margin-top: 80px;
-  margin-left: 60px;
+  margin-bottom: 60px;
 }
-.contato li {
-  list-style: none;
-  color: #ffffff;
-  font-size: 36px;
-  line-height: 40px;
+.footer ul{
+  margin-bottom: 60px;
+}
+.copy {
+  color: #B9B9B9;
   padding: 10px;
-}
-.contato {
-  margin-top: 70px;
-}
-footer p {
-  font-size: 18px;
-  line-height: 32px;
-  color: #8f8f8f;
-  margin-left: 90px;
-}
-footer h4::before {
-  content: "";
-  display: block;
-  width: 130px;
-  height: 100px;
-  background: url("./web/img/detalhe.svg") no-repeat center;
-  position: absolute;
-  margin-top: -190px;
 }
